@@ -27,7 +27,10 @@ nav{
 }
 
 h2{
-    font-size: 4rem;
+    font-size: 3.7rem;
+    text-transform: uppercase;
+    color: orangered;
+    text-align: center;
 }
 
 .nav-links{
@@ -47,13 +50,14 @@ h2{
     padding: 5rem;
     h2{
         color: white;
-        text-transform: uppercase;
         width: 28rem;
+        text-align: start;
     }
     input{
         height: 3rem;
         width: 25rem;
         color: grey;
+        padding: 0.5rem;
     }
     button{
         background-color: orangered;
@@ -73,12 +77,212 @@ h2{
 
 .work{
     padding: 5rem 0;
-    text-align: center;
+    
     div{
         margin: 2rem 0;
-    }
+        justify-content: space-around;
+    };
 }
 
 .work-img-ht{
     height: 4rem;
+}
+
+.work-card{
+    width: 23%;
+    align-items: center;
+    div{
+        flex-direction: column;
+    };
+    h3{
+        text-transform:uppercase;
+        font-weight: 800;
+        padding: 0;
+        margin: 1rem 2rem;
+        text-align: start;
+    }
+    p{
+        text-align: start;
+        margin: 0 2rem;
+    }
+}
+
+.dishes{
+    background-color: bisque;
+    padding: 3rem 0;
+    div{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+.dish-card{
+    margin: 1rem 1.5rem;
+    flex-direction: column;
+    width: 20%;
+    background-color: white;
+    text-align: start;
+    h4{
+        padding: 0 0.5rem;
+    };
+    p{
+        padding: 0 0.5rem;
+    };
+    div{
+        justify-content: space-between;
+        margin: 0 0.7rem;
+        align-items: center;
+        font-weight: 900;
+        margin-bottom: 1rem;
+        button{
+            width: 7rem;
+            padding: 0.5rem 0;
+            background-color: green;
+            color: white;
+            border-radius: 0.5rem;
+            border: none;
+        }
+    }
+}
+
+.card-footer{
+    border-top: 1px solid lightgrey;
+    margin: 1rem 0.5rem;
+    padding: 1rem 0;
+    a{
+        text-decoration: none;
+        color: lightgray;
+        font-weight: 500;
+    }
+}
+
+aside{
+    background-image: linear-gradient( rgba(236,115,76,1) 0%, rgba(204,57,17,1) 35%, rgba(186,18,35,1) 100%);
+    padding: 4rem 2rem;
+    color: white;
+   justify-content: space-around;
+    h3{
+        text-transform: uppercase;
+    }
+    img{
+        border-radius: 100%;
+        background-color: white;
+        width: 5rem;
+        padding: 1rem;
+        
+    }
+    div{
+        flex-direction: column;
+        justify-content: center;
+        width: 15%;
+        align-items: center;
+        p{
+            text-align: justify;
+        padding: 0.5rem;}
+    }
+}
+
+.restaurant{
+    background-color: bisque;
+    padding: 3rem 0;
+    div{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+.restaurant-card{
+    margin: 1rem 1.5rem;
+    flex-direction: column;
+    width: 20%;
+    background-color: white;
+    text-align: start;
+    padding-bottom: 2rem;
+    h4{
+        padding: 0 0.5rem;
+    };
+    span{
+        padding: 0 0.5rem;
+        color: lightgray
+    };
+}
+
+.banner{
+    h3{
+    background-color: midnightblue;
+    color: white;
+    text-transform: uppercase;
+    margin: 3rem 2rem;
+    padding: 10rem;
+    text-align: center;
+    }
+}
+
+.featured-card{
+    margin: 1rem 1.5rem;
+    flex-direction: column;
+    width: 20%;
+    background-color: white;
+    text-align: start;
+    h4{
+        padding: 0 0.5rem;
+    };
+    span{
+        padding: 0 0.5rem 1rem ;
+    };
+    div{
+        justify-content: space-between;
+        margin: 0 0.7rem;
+        align-items: center;
+        font-weight: 900;
+        margin-bottom: 1rem;
+        button{
+            width: 7rem;
+            padding: 0.5rem 0;
+            background-color: green;
+            color: white;
+            border-radius: 0.5rem;
+            border: none;
+        }
+    }
+}
+
+footer{
+    div{
+        background-color: white;
+        justify-content: space-around;
+    }
+    address{
+        background-color: bisque;
+        padding: 1rem 3rem;
+        align-items: center;
+        justify-content: space-between;
+        span{
+            color: greenyellow;
+            margin-left: 0.8rem;
+        }
+        div{
+            background-color: bisque;
+            align-items: center;
+            justify-content: space-between;
+            a{
+                text-decoration: none;
+                background-color: bisque;
+                color: black;
+                margin: 0 0.5rem;
+            }
+        }
+    }
+}
+
+.footer-col{
+    flex-direction: column;
+    padding: 2rem;
+    h3{
+        font-weight: bold;
+        text-transform: uppercase;
+        color: black;
+    }
+    height: 20%;
+    color: grey;
 }
